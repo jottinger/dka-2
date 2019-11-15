@@ -6,7 +6,7 @@ package com.autumncode.dka2;
 import com.autumncode.dka1.*;
 import java.io.PrintWriter;
 
-public class App {
+public class MainInvocation {
     public static void main(String[] args) {
         DKA dka=new BasicDKA(new PrintWriter(System.out));
         new DKA2().doOther();

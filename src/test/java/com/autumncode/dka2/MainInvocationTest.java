@@ -5,11 +5,9 @@ package com.autumncode.dka2;
 
 import org.testng.annotations.*;
 
-import static org.testng.Assert.*;
-
-public class AppTest {
+public class MainInvocationTest {
     @Test
     public void appHasAGreeting() {
-        App.main(null);
+        MainInvocation.main(null);
     }
 }
